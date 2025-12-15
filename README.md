@@ -80,7 +80,7 @@ A WiFi Pineapple built for Hackers who don't stay put.
 
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=meNlOrdQJFo"><img src="https://shop.hak5.org/cdn/shop/files/wifi-pineapple-pager-black-pineap_600x.png?v=1752942736"/></a>
+<a href="https://youtu.be/GUaUerYCvs0"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/pager-transparent.png?v=1765835552"/></a>
 <br/>
 <i>New WiFi Pineapple Pager</i>
 </p>
