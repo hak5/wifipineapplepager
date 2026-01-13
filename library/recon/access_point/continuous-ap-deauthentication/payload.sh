@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Title: Continous Deauth
-#Description: Payload to continuosly deauth all devices off of a network.
+#Title: Continuous Deauth
+#Description: Payload to continuously deauth all devices off of a network.
 # Author: Jestsec
 # Version: 1
 
