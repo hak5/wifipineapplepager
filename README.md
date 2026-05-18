@@ -29,7 +29,7 @@ Ringtones - https://github.com/hak5/wifipineapplepager-ringtones
 <br/>
 <p align="center">
 <br/>
-<a href="https://hak5.org/blogs/payloads/tagged/wifi-pineapple-pager">View Featured Pager Payloads and Leaderboard</a>
+<a href="https://payloads.hak5.org/blogs/payloads/tagged/pineapple-pager">View Featured Pager Payloads and Leaderboard</a>
 <br/><i>Get your payload in front of thousands. Enter to win over $2,000 in prizes in the <a href="https://hak5.org/pages/payload-awards">Hak5 Payload Awards!</a></i>
 </p>
 
