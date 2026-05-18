@@ -1,0 +1,202 @@
+name: Firmware Bug
+description: Report an issue with the WiFi Pineapple Pager firmware or built-in functionality.
+title: "[Firmware BUG] write a short description here"
+
+body:
+  - type: markdown
+    attributes:
+      value: Keep in mind - the more information provided here, the more actionable it will become. Please provide detailed answers to the prompts below. Please read and answer carefully.
+
+  - type: markdown
+    attributes:
+      value: |
+        This issue form is specifically for problems related to the official WiFi Pineapple Pager firmware, built-in UI, system functionality, or device behavior.
+
+        If the issue is caused by a third-party payload, theme, configuration, or modification, please contact the original author or use the appropriate issue tracker instead.
+
+        If you are simply seeking assistance, troubleshooting help, or usage guidance, please join our [Community Discord](https://hak5.org/discord)
+
+  - type: input
+    id: firmwareVersion
+    attributes:
+      label: "Firmware Version"
+      description: "Provide the exact firmware version currently installed on your device"
+      placeholder: "ex. 1.0.9"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: latestFirmware
+    attributes:
+      label: "Are you running the latest firmware version available?"
+      description: "Issues reported on outdated firmware may already be resolved"
+      options:
+        - "Yes"
+        - "No"
+        - "Unsure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problemDescription
+    attributes:
+      label: "Problem Description"
+      description: "Provide a detailed explanation of the issue"
+      placeholder: "DO NOT LEAVE THIS BLANK. ex. I opened Recon View and after approximately 30 seconds the UI became unresponsive..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Provide exact steps required to reproduce the issue"
+      placeholder: |
+        DO NOT LEAVE THIS BLANK. Example:
+        1. Boot device
+        2. Open Recon View
+        3. Device freezes after ~30 seconds
+    validations:
+      required: true
+
+  - type: textarea
+    id: expectedBehavior
+    attributes:
+      label: "Expected Behavior"
+      description: "Describe what you expected to happen"
+      placeholder: "ex. The device should continue scanning without freezing"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actualBehavior
+    attributes:
+      label: "Actual Behavior"
+      description: "Describe what actually happened"
+      placeholder: "ex. The UI stopped responding and required a full device reboot"
+    validations:
+      required: true
+
+  - type: textarea
+    id: frequency
+    attributes:
+      label: "How Often Does This Occur?"
+      description: "Does this happen every time, randomly, or under specific conditions?"
+      placeholder: "ex. Happens every reboot / Happens after several hours / Only occurs while connected over Virtual Pager / Only happens in certain physical locations"
+    validations:
+      required: true
+
+  - type: textarea
+    id: payloadsThemes
+    attributes:
+      label: "Payloads, Themes, or Modifications Involved"
+      description: |
+        List any payloads, themes, startup scripts, custom files, configuration changes, or unofficial modifications currently installed on the device.
+
+        If none, explicitly state NONE.
+      placeholder: |
+        DO NOT LEAVE THIS BLANK.
+        ex. NONE
+        or
+        Running custom theme XYZ
+        Added custom script to /etc/rc.local
+    validations:
+      required: true
+
+  - type: dropdown
+    id: safeModeTest
+    attributes:
+      label: "Does the issue still occur without third-party payloads/themes/modifications?"
+      description: "This helps determine whether the issue is caused by the firmware itself or external modifications"
+      options:
+        - "Yes"
+        - "No"
+        - "Not Tested"
+    validations:
+      required: true
+
+  - type: textarea
+    id: troubleshooting
+    attributes:
+      label: "Troubleshooting Steps Performed"
+      description: "List any troubleshooting steps already attempted"
+      placeholder: |
+        DO NOT LEAVE THIS BLANK.
+        ex.
+        - Rebooted device
+        - Factory reset
+        - Reflashed firmware
+        - Removed custom payloads/themes
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs, Errors, or Debug Information"
+      description: |
+        Include any relevant logs, screenshots, console output, crash messages, or debug information.
+
+        PLEASE REDACT SENSITIVE/PRIVATE INFORMATION BEFORE POSTING.
+      placeholder: |
+        ex.
+        - Screenshot of error
+        - dmesg output
+        - logread output
+        - /tmp/uierrors.log output
+    validations:
+      required: false
+
+  - type: textarea
+    id: suspectedCause
+    attributes:
+      label: "Suspected Cause"
+      description: "Optional: What do you think may be causing the issue?"
+      placeholder: "ex. Seems related to enabling Virtual Pager while scanning"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additionalInfo
+    attributes:
+      label: "Additional Information"
+      description: "Anything else that may help identify or reproduce the issue"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checklist ✅ - READ CAREFULLY"
+      options:
+        - label: "I verified I am running the latest firmware version available."
+          required: true
+
+        - label: "I checked and did not find an existing issue already describing this problem"
+          required: true
+
+        - label: "I tested whether the issue still occurs without third-party payloads, themes, or modifications"
+          required: true
+
+        - label: "I provided enough detail for someone else to reasonably attempt reproducing this issue"
+          required: true
+
+        - label: "I made sure to redact sensitive or private information from logs and screenshots"
+          required: true
+
+        - label: "I understand issues caused by unofficial modifications, payloads, or themes may not be actionable as firmware bugs"
+          required: true
+
+        - label: "I have actually read the above checkboxes before checking them, including this one, which I have intentionally left unchecked as confirmation of this statement"
+          required: false
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: "Agreement"
+      options:
+        - label: "I believe this issue is related to the official firmware or built-in functionality itself"
+          required: true
+
+        - label: "I have carefully read and filled out every applicable section of this issue form to the best of my ability"
+          required: true
