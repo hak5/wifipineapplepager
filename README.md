@@ -1,50 +1,28 @@
 # Library for the [WiFi Pineapple Pager](https://hak5.org/products/wifi-pineapple-pager) by [Hak5](https://hak5.org)
 
+## This is the parent repository
 
-> This repo is under construction
+> [!IMPORTANT]
+> **This repository holds no payloads, themes or ringtones of its own.** It links to the repositories that do, and it is the home for firmware bug reports, the product roadmap and feature requests.
+>
+> - **Issues are for firmware bugs only.** Report one with the [Firmware Bug form](https://github.com/hak5/wifipineapplepager/issues/new/choose).
+> - **Feature requests go in Discussions.** Check the [Project Roadmap](https://github.com/hak5/wifipineapplepager/discussions/categories/project-roadmap) to see what is already planned, then post your request under [Feature Ideas](https://github.com/hak5/wifipineapplepager/discussions/categories/feature-ideas).
+> - **Problems with a payload, theme or ringtone** belong in that repository, listed below.
+> - **Questions and help:** ask in the [Hak5 Discord](https://hak5.org/discord).
 
-This repository contains direct links to subrepos for payloads, themes and ringtones for the Hak5 WiFi Pineapple Pager. 
+<h1><a href='https://payloadhub.com'>Contributing</a></h1>
+
+Please make contributions to the appropriate repository directly:
+
+- Payloads - https://github.com/hak5/wifipineapplepager-payloads
+- Themes - https://github.com/hak5/wifipineapplepager-themes
+- Ringtones - https://github.com/hak5/wifipineapplepager-ringtones
 
 
-Contributions via Pull Requests should be made within the appropriate subrepo directly. 
-	
-Payloads - https://github.com/hak5/wifipineapplepager-payloads
-
-Themes - https://github.com/hak5/wifipineapplepager-themes
-
-Ringtones - https://github.com/hak5/wifipineapplepager-ringtones
 
 <a href="#legal"><b>See Legal and Disclaimers</b></a>
 
 
-
-<div align="center">
-<img src="https://img.shields.io/github/forks/hak5/wifipineapple-pager?style=for-the-badge"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/stars/hak5/wifipineapple-pager?style=for-the-badge"/>
-<br/>
-<img src="https://img.shields.io/github/commit-activity/y/hak5/wifipineapple-pager?style=for-the-badge">
-<img src="https://img.shields.io/github/contributors/hak5/wifipineapple-pager?style=for-the-badge">
-</div>
-<br/>
-<p align="center">
-<br/>
-<a href="https://payloads.hak5.org/blogs/payloads/tagged/pineapple-pager">View Featured Pager Payloads and Leaderboard</a>
-<br/><i>Get your payload in front of thousands. Enter to win over $2,000 in prizes in the <a href="https://hak5.org/pages/payload-awards">Hak5 Payload Awards!</a></i>
-</p>
-
-
-<div align="center">
-<a href="https://hak5.org/discord"><img src="https://img.shields.io/discord/506629366659153951?label=Hak5%20Discord&style=for-the-badge"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://youtube.com/hak5"><img src="https://img.shields.io/youtube/channel/views/UC3s0BtrBJpwNDaflRSoiieQ?label=YouTube%20Views&style=for-the-badge"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://youtube.com/hak5"><img src="https://img.shields.io/youtube/channel/subscribers/UC3s0BtrBJpwNDaflRSoiieQ?style=for-the-badge"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://twitter.com/hak5"><img src="https://img.shields.io/badge/follow-%40hak5-1DA1F2?logo=twitter&style=for-the-badge"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://instagram.com/hak5gear"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-<br/><br/>
 
 </div>
 
@@ -84,24 +62,14 @@ A WiFi Pineapple built for Hackers who don't stay put.
 <i>New WiFi Pineapple Pager</i>
 </p>
 
-The first Payload-powered WiFi Pineapple is here — and it runs DuckyScript™, Hak5’s simple and powerful scripting language. Paired with Bash and backed by Linux, it brings serious scripting power to the palm of your hand.
+The first payload-powered WiFi Pineapple is here, and it runs DuckyScript™, Hak5's simple and powerful scripting language. Paired with Bash and backed by Linux, it puts serious scripting power in the palm of your hand.
 
-Launch targeted attacks or set alert payloads to fire off based on live WiFi activity. Ringtones, vibes and visuals.
+Launch targeted attacks on demand for your authorized engagements, or set alert payloads to fire on live WiFi activity, with ringtones, vibration and visuals to let you know.
 
-Take control of the airspace with the 8th generation PineAP engine — now over 100× faster. Rebuilt from the kernel up, this attack suite is hyper optimized for advanced WiFi operations, even in the most crowded RF environments.
+Take control of the airspace with the 8th generation PineAP engine, now over 100× faster. Rebuilt from the kernel up, it is tuned for advanced WiFi operations in even the most crowded RF environments.
 
-Run Rogue AP, Man-in-the-Middle, and Deauth attacks. Nab handshakes, OSINT and more, all from a live dashboard.
+Built for seamless passive Recon of 2.4/5/6Ghz, Bluetooth and Bluetooth Low-Energy. Stand up a Rogue AP, run Man-in-the-Middle attacks. All of this and more, all from a live dashboard.
 
-
-<h1><a href='https://payloadhub.com'>Contributing</a></h1>
-
-Please make contributions to the appropriate repository directly:
-
-Payloads - https://github.com/hak5/wifipineapplepager-payloads
-
-Themes - https://github.com/hak5/wifipineapplepager-themes
-
-Ringtones - https://github.com/hak5/wifipineapplepager-ringtones
 
 
 
